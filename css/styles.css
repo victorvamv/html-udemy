@@ -64,15 +64,21 @@ h2,h3{
     background-color: yellowgreen;
     color: black;
 }
-
-.hero{
-    background-image: url(../hero/hero2.webp);
+section{
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
     position: relative;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 1rem; 
+}
+.carrusel2{
+    background-image: url(../hero/carrusel2.jpg);
+}
+.carrusel3{
+    background-image: url(../hero/carrusel3.jpg); 
+}
+.hero{
+    background-image: url(../hero/hero2.webp);     
 }
 .contenido-hero{
     position: absolute;

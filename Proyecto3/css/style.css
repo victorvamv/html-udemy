@@ -167,3 +167,29 @@ img {
 .widget-curso__info {
     font-size: 2rem;
 }
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+/*Sobre nosotros*/
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: flex;
+        gap: 2.5rem; /*gap sirve para separar el texto con la imagen*/
+    }
+    
+    .sobre-nosotros__imagen, 
+    .sobre-nosotros__texto {
+        flex-basis: 50%;
+    } /* Dividiendo los elementos con flexbox */
+
+    /* .sobre-nosotros{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       column-gap: 2rem; 
+    } 
+    Este es con CSS Grid
+    */
+}

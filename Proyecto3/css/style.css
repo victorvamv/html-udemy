@@ -123,6 +123,11 @@ img {
     border: none;
     margin-bottom: 0;
 }
+.entrada__contenido {
+    text-align: justify;
+}
+
+/*Propiedades del boton*/
 .boton {
     display: block;
     font-family: var(--fuenteHeading);
@@ -133,12 +138,17 @@ img {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
+}
+.boton:hover {
+    cursor: pointer;
 }
 @media (min-width: 768px) {
     .boton{
         display: inline-block;
     }
 }
+/*Color del boton*/
 .boton--primario {
     background-color: var(--negro);
 }
@@ -192,4 +202,71 @@ img {
     } 
     Este es con CSS Grid
     */
+}
+.sobre-nosotros__texto {
+    text-align: justify;
+}
+/*Cursos*/
+.curso {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--claro);  
+}
+@media (min-width: 768px) {
+    .curso{
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+.curso:last-of-type{
+    border:none;
+}
+
+.curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+.curso__info {
+    font-weight: normal;
+}
+.curso__label,
+.curso__info {
+    font-size: 2rem;
+}
+.curso__descripcion {
+    text-align: justify;
+}
+/*Contacto*/
+.contacto-bg {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--claro);
+}
+.campo__field--textarea{
+    height: 20rem;
+}
+.texto__entrada {
+    text-align: justify;
 }

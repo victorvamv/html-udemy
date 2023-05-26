@@ -69,6 +69,22 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
 }
+.cafe2 {
+    background-image: url(../img/cafe2.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.cafe3 {
+    background-image: url(../img/cafe3.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
 /*Texto de la imagen principal*/
 .header__texto {
     text-align: center;

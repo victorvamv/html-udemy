@@ -86,13 +86,19 @@
                 </header>
             </div><!--Tercer diapositiva .carousel-item-->
         </div><!--.carousel-inner-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div><!--Aqui se termina el carrusel .carousel y .slide-->
         <div class="contenedor contenido-principal">
             <main class="blog">
                 <h3 class="h3">Nuestro Blog</h3>
                 <article class="entrada">
                     <div class="entrada__imagen">
-                        <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+                        <img loading="lazy" src="img/blog1.jpg" class="rounded-circle" alt="imagen blog">
                     </div>
 
                     <div class="entrada__contenido" >
@@ -111,7 +117,7 @@
 
                 <article class="entrada">
                     <div class="entrada__imagen">
-                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog">
+                        <img loading="lazy" src="img/blog2.jpg" class="rounded-circle" alt="imagen blog">
                     </div>
 
                     <div class="entrada__contenido" >
@@ -130,7 +136,7 @@
 
                 <article class="entrada">
                     <div class="entrada__imagen">
-                        <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+                        <img loading="lazy" src="img/blog3.jpg" class="rounded-circle" alt="imagen blog">
                     </div>
 
                     <div class="entrada__contenido" >
@@ -159,6 +165,8 @@
                             <span class="widget-curso__info">20</span>
                         </p>
                         <a href="entrada.html" class="boton boton--secundario">Más Información</a>
+                        <input href="entrada.html" type="submit" class="boton boton--secundario" value="Más Información">
+                        
                     </li>
 
                     <li class="widget-curso">
@@ -169,7 +177,7 @@
                         <p class="widget-curso__label">Cupo:
                             <span class="widget-curso__info">20</span>
                         </p>
-                        <a href="entrada.html" class="boton boton--secundario">Más Información</a>
+                        <input href="entrada.html" type="submit" class="boton boton--secundario" value="Más Información">
                     </li>
                 </ul>
             </aside>
@@ -177,7 +185,7 @@
 
         <footer class="footer">
             <div class="contenedor">
-                <div class="barra">
+                <div class="barra justify-content-between">
                     <a class="logo" href="index.html">
                         <h1 class="logo__nombre no__margin centrar-texto h1">Blog <span class="logo__bold">DeCafé</span> </h1>
                     </a>

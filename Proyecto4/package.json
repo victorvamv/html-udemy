@@ -1,0 +1,26 @@
+{
+  "name": "proyecto4",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorvamv/html-udemy.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Victor Vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorvamv/html-udemy/issues"
+  },
+  "homepage": "https://github.com/victorvamv/html-udemy#readme",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  }
+}

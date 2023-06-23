@@ -10,6 +10,7 @@
 
 }
 
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -48,10 +49,7 @@ a {
     font-size: 3.2rem;
     margin-top: 5rem;
 }
-.h4 {
-    font-size: 2.8rem;
-    margin-top: 1rem;
-}
+
 img {
     max-width: 100% ;
 }
@@ -84,8 +82,6 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
-
 /*Texto de la imagen principal*/
 .header__texto {
     text-align: center;
@@ -100,12 +96,9 @@ img {
 @media (min-width: 768px) {
     .barra {
         display: flex;
-        justify-content: center; /* Alineación horizontal centrada */
-        align-items: flex-start; /* Alineación vertical superior */
-       
-    }
-    
-  
+        justify-content: center; 
+        align-items: flex-start;   
+    }  
 }
 .logo {
     color: var(--blanco);
@@ -117,7 +110,6 @@ img {
 .logo__bold {
     font-weight: 700;
 }
-
 .navegacion__enlace {
     display: block;
     text-align: center;
@@ -130,7 +122,6 @@ img {
         display: flex;
         align-items: center;
         gap: 2rem;
-    
         /*Separación de las letras de la navegacion*/
     }
 }
@@ -278,6 +269,22 @@ img {
     text-align: justify;
 }
 /*Contacto*/
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.correcto {
+    background-color: rgb(74, 185, 0);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
 .contacto-bg {
     background-image: url(../img/contacto.jpg);
     height: 40rem;
@@ -286,7 +293,7 @@ img {
 }
 @media (min-width: 768px) {
     .formulario{
-    background-color: var(--blanco);
+    background-color: beige;
     margin: -5rem auto 0 auto;
     width: 65%;
     padding: 5rem;
@@ -322,3 +329,6 @@ img {
 .texto__entrada {
     text-align: justify;
 }
+
+
+
